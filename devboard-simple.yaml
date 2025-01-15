@@ -1,0 +1,5 @@
+pc-dut:
+  location: Benjamins PC
+  PicoDevBoard:
+    match:
+      ID_SERIAL_SHORT: 'e661410403143232'

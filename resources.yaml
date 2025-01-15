@@ -1,0 +1,66 @@
+kmtronicpi:
+  kmtronic-rpi-dut:
+    relay-ign:
+      acquired: desk
+      avail: true
+      cls: NetworkKMTronicRelay
+      params:
+        busnum: 1
+        devnum: 7
+        extra:
+          proxy: kmtronicpi
+          proxy_required: false
+        host: kmtronicpi
+        index: 2
+        model_id: 24577
+        path: /dev/ttyUSB1
+        ports: 4
+        vendor_id: 1027
+    relay-pwr:
+      acquired: desk
+      avail: true
+      cls: NetworkKMTronicRelay
+      params:
+        busnum: 1
+        devnum: 7
+        extra:
+          proxy: kmtronicpi
+          proxy_required: false
+        host: kmtronicpi
+        index: 1
+        model_id: 24577
+        path: /dev/ttyUSB1
+        ports: 4
+        vendor_id: 1027
+    relay-rec1:
+      acquired: desk
+      avail: true
+      cls: NetworkKMTronicRelay
+      params:
+        busnum: 1
+        devnum: 7
+        extra:
+          proxy: kmtronicpi
+          proxy_required: false
+        host: kmtronicpi
+        index: 3
+        model_id: 24577
+        path: /dev/ttyUSB1
+        ports: 4
+        vendor_id: 1027
+    relay-rec2:
+      acquired: desk
+      avail: true
+      cls: NetworkKMTronicRelay
+      params:
+        busnum: 1
+        devnum: 7
+        extra:
+          proxy: kmtronicpi
+          proxy_required: false
+        host: kmtronicpi
+        index: 4
+        model_id: 24577
+        path: /dev/ttyUSB1
+        ports: 4
+        vendor_id: 1027

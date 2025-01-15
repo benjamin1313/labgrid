@@ -1,0 +1,32 @@
+desk:
+  acquired: benjamin-ThinkPad/benjamin
+  acquired_resources:
+  - - kmtronicpi
+    - kmtronic-rpi-dut
+    - NetworkKMTronicRelay
+    - relay-ign
+  - - kmtronicpi
+    - kmtronic-rpi-dut
+    - NetworkKMTronicRelay
+    - relay-pwr
+  - - kmtronicpi
+    - kmtronic-rpi-dut
+    - NetworkKMTronicRelay
+    - relay-rec1
+  - - kmtronicpi
+    - kmtronic-rpi-dut
+    - NetworkKMTronicRelay
+    - relay-rec2
+  aliases: []
+  allowed: []
+  changed: 1738067888.8018544
+  comment: ''
+  created: 1738067150.6514308
+  matches:
+  - cls: '*'
+    exporter: '*'
+    group: kmtronic-rpi-dut
+    name: null
+    rename: null
+  reservation: null
+  tags: {}
